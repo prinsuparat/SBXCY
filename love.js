@@ -20,15 +20,16 @@ $(document).ready(function(){
             $('#no-btn').css('left','-400px');
         }
         if(count>=7){
+            count==0;
             $('#no-btn').removeClass('btn-danger').addClass('btn-primary');
-            $('#no-btn').text('是的！');
+            $('#no-btn').text('谌岗伟是撒🐕');
         }
 
     });
     // code continues here
     //btn-clicked
     $('.btn-primary').click(function(){
-        $('.head1').text("哈哈，我也喜欢你！！！");
+        $('.head1').text("你就是撒狗🐕！！！");
         $('.head1').addClass("animated wobble");
     });
 
